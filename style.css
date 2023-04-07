@@ -1,0 +1,110 @@
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+header {
+  min-height: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url(./Fotos/home3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: top center;
+}
+
+main {
+  height: auto;
+  background: linear-gradient(
+    45deg,
+    rgb(254, 219, 106),
+    rgb(254, 233, 140),
+    rgb(255, 245, 203)
+  );
+}
+
+.informacoes {
+  width: 400px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#menu-principal {
+  padding: 10px;
+  position: relative;
+  height: fit-content;
+}
+
+#menu-principal menu {
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+  list-style: none;
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+#menu-principal:hover menu {
+  opacity: 1;
+  pointer-events: initial;
+}
+
+.img-menu {
+  height: 20px;
+  width: 20px;
+  margin-left: 2px;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-bottom: purple;
+  /* min-width: fit-content; */
+  /* min-width: moz-fit-content; */
+  /* min-width: -webkit-fill-available; */
+}
+
+h1 {
+  margin: 0;
+}
+
+.efeito-button {
+  margin: 4px;
+}
+
+.efeito-button:hover {
+  animation: bounce 1s;
+}
+
+/* .informacoes {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: black;
+  background-position: center;
+}
+
+.img-rodape {
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
+}

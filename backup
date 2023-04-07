@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="Um lugar onde seus filhos podem aprender e se divertir de forma segura."
+    />
+    <title>Cuidadora Lisi</title>
+    <#link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="menus">
+            Menu
+            <menu>
+              <a href="#diogo-header" class="botao botao1">Visão e Missão</a>
+              <a class="botao botao1">Fotos</a>
+              <a class="botao botao1">Calendário</a>
+              <a class="botao botao1">Datas Comemorativas</a>
+              <a class="botao botao1">Cardápios</a>
+              <a class="botao botao1">Planejamentos</a>              
+            </menu>
+
+            <menu>
+              <a class="botao botao2"> Cadastre-se</a>
+            </menu>
+          </li>
+        </ul>
+      </nav>
+
+      <h1>
+        <span>Profe Lisi</span>
+        <img src="Fotos\home1.jpg" alt="Imagem de Inicio" />
+      </h1>
+    </header>
+
+    <main>
+      <h2 id="diogo-header">Diogo lindão</h2>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
